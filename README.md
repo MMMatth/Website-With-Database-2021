@@ -1,2 +1,2 @@
-# site_bdd
-Projet de NSI Base de données sql
+# Website with a BDD
+Project website with a bdd
