@@ -1,0 +1,206 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	background: #048b9a;
+}
+/* Tite */
+h1{
+        text-align: center;
+        padding: 30px 0;
+        color: #f1f1f1;
+    }
+h2{
+        border-radius: 10px;
+        padding: 15px;
+        margin-left:15px;
+        margin-right:15px;
+        background-color: #f1f1f1; 
+    }
+/* Autre petit texte */
+p{
+        margin-left:5px;
+        margin-right:5px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+    }
+/* menu */
+li{
+        background-color: none;
+        width:5px;
+    }
+nav{
+    	width: 100%;
+    	margin: 0 auto;
+    	background-color: #f1f1f1;
+
+    	top: 0px;
+            border-radius: 5px;
+    }
+nav ul{
+    	list-style-type: none;
+    }
+nav ul li{
+    	float: left;
+    	width: 5%;
+    	text-align: center;
+    }
+.menu{
+    	margin: 5%;
+    	margin-left: 15px;
+        width: 50px;
+        transition: all 250ms ease;
+    }
+nav a{
+    	display: block;
+    	text-decoration: none;
+    	color: #f1f1f1;
+    	padding: 10px 0px;
+    	width: 200px;
+    	margin: 5px;
+        border-radius: 10px;
+    }
+.sous{
+        box-shadow: 10px 10px 10px #303030;
+        border-radius: 10px;
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        transition: 250ms max-height 0.3s;
+    }
+
+.sous li{
+        float: none;
+        text-align: left;
+    }
+.sous a{
+        padding: 10px;
+        border-bottom: none;
+    }
+nav > ul li:hover .sous{
+        display: block;
+    }
+.sous a:hover{
+        -webkit-transition: all 1s ease-out;
+        border-bottom: none;
+        background-color: #086670;
+        box-shadow: 5px 5px 5px #303030;
+    }
+.hyper:hover{
+        font-size: calc(100% + 0.5px);
+    }
+.menu:hover{
+    -webkit-transition: all 0.5s ease-out;
+	-webkit-transform:scale(1.20); /* Safari et Chrome */
+	-moz-transform:scale(1.20); /* Firefox */
+	-ms-transform:scale(1.20); /* Internet Explorer 9 */
+	-o-transform:scale(1.20); /* Opera */
+    }
+.menu:not(:hover),.sous:not(:hover){
+    -webkit-transition: all 0.5s ease-out;
+    }
+
+/* image */
+.imagejeux{
+        margin: auto;
+        display: block;
+        background-color: #f1f1f1;
+        transition: all 250ms ease;
+        cursor:pointer;
+    }
+/* tableau */
+.tableau{
+        margin-left:20px;
+        margin-right:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        display: grid;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+/* pour les jeux video*/
+/* Les noms editeurs*/
+.hyper{
+        background-color: #f1f1f1;
+        font-weight: bold;
+        text-decoration: underline;
+        color : black;
+        transition: 250ms max-height 0.3s;
+    }
+.hyper:hover{
+        font-size: calc(100% + 0.5px);
+    }
+
+/* Les cases jv */
+.case{
+        text-align: center;
+        margin: 5px;
+        height: 300px;
+        width: 250px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:solid ;
+        border-color:black;
+        display: block;
+        transition: all 250ms ease;
+        padding : 5px;
+    }
+.case_requette{
+        text-align: center;
+        margin: 5px;
+        height: 100px;
+        width: 250px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:solid ;
+        border-color:#f1f1f1;
+        display: block;
+    }
+.requette_bouton{
+        margin-top :10px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        width: 220px;
+        transition: all 250ms ease;
+        padding: 10px;
+    }
+/* Les cases editeur */
+.case_e{
+        text-align: center;
+        margin: 5px;
+        height: 250px;
+        width: 250px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        border-width:1px;
+        border-style:solid ;
+        border-color:black;
+        display: block;
+        transition: all 250ms ease;
+    }
+/* hover des deux type de case*/
+.case:hover,.case_e:hover{
+    	-webkit-transform:scale(1.05); /* Safari et Chrome */
+    	-moz-transform:scale(1.05);/* Firefox */
+    	-ms-transform:scale(1.05); /* Internet Explorer 9 */
+    	-o-transform:scale(1.05); /* Opera */
+        box-shadow: 5px 5px 5px #303030;        
+    }
+@media only screen and (hover: none) and (pointer: coarse){
+    /* on desactive les :hover*/
+    .case:hover{
+    	-webkit-transform:scale(1.00); /* Safari et Chrome */
+    	-moz-transform:scale(1.00);/* Firefox */
+    	-ms-transform:scale(1.00); /* Internet Explorer 9 */
+    	-o-transform:scale(1.00); /* Opera */
+        box-shadow: 0px 0px 0px #303030;        
+    }
+}
+    }
