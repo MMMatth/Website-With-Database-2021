@@ -1,6 +1,5 @@
 # Website with a BDD
-Project website with a bdd
-<br/>
+Project website with a bdd<br/><br/>
 <img src="site/IMG/gif/1.gif" width="48%">
 <img src="site/IMG/gif/2.gif" width="48%">
 <img src="site/IMG/gif/3.gif" width="48%">
