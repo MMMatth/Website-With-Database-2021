@@ -11,10 +11,6 @@
 ## 🚀 What is my project ?
 Project website with a bdd.
 
-## 💻 Python library to install :
-
-* pygame `pip install pygame`
-
 ## :mailbox: Contact me :
 <div align="center">
 <a href="https://instagram.com/matth_gdl/"><img src="https://github.com/MMMatth/MMMatth/blob/main/img/instagram.png" width="50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
